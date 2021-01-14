@@ -1,4 +1,4 @@
-export const dataSections = [
+const SHOP_DATA_SECTIONS = [
   {
     title: 'hats',
     imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
@@ -31,4 +31,6 @@ export const dataSections = [
     id: 5,
     linkUrl: 'shop/mens'
   }
-]
+];
+
+export default SHOP_DATA_SECTIONS;
